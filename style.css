@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.message{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    width: 600px;
+    color : white;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    height: 9vh;
+    margin: 0 4rem;
+    font-size: 2rem;
+}
+.blue{
+    position: relative;
+    top : -3rem;
+    color : blue;
+}
+.green{
+    position: relative;
+    top : -3rem;
+
+    color: green;
+}
